@@ -1,6 +1,6 @@
 var elModeBtn = document.querySelector(".mode-btn");
 
-elMenuBtn.addEventListener("click", function () {
+elModeBtn.addEventListener("click", function () {
   if (
     localStorage.theme === "dark" ||
     (!("theme" in localStorage) &&
