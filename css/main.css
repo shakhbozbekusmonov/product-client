@@ -563,6 +563,10 @@ video {
   max-width: 1130px;
 }
 
+.max-w-\[458px\] {
+  max-width: 458px;
+}
+
 .items-center {
   align-items: center;
 }
@@ -571,8 +575,16 @@ video {
   justify-content: space-between;
 }
 
+.gap-2 {
+  gap: 0.5rem;
+}
+
 .gap-6 {
   gap: 1.5rem;
+}
+
+.gap-\[30px\] {
+  gap: 30px;
 }
 
 .rounded {
@@ -607,6 +619,22 @@ video {
   background-color: rgb(2 137 122 / var(--tw-bg-opacity));
 }
 
+.bg-\[url\(\'\.\.\/assets\/images\/hero-bg\.png\'\)\] {
+  background-image: url('../assets/images/hero-bg.png');
+}
+
+.bg-mb {
+  background-size: 338px;
+}
+
+.bg-\[center_29px\] {
+  background-position: center 29px;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
 .p-1 {
   padding: 0.25rem;
 }
@@ -621,6 +649,11 @@ video {
   padding-right: 22px;
 }
 
+.px-\[41px\] {
+  padding-left: 41px;
+  padding-right: 41px;
+}
+
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
@@ -631,14 +664,52 @@ video {
   padding-bottom: 10px;
 }
 
+.py-\[15px\] {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.pb-\[115px\] {
+  padding-bottom: 115px;
+}
+
+.pb-\[18px\] {
+  padding-bottom: 18px;
+}
+
+.pb-\[45px\] {
+  padding-bottom: 45px;
+}
+
+.pt-\[350px\] {
+  padding-top: 350px;
+}
+
+.text-center {
+  text-align: center;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
 }
 
+.text-\[40px\] {
+  font-size: 40px;
+}
+
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .font-extrabold {
@@ -658,6 +729,11 @@ video {
   color: rgb(23 58 86 / var(--tw-text-opacity));
 }
 
+.text-element {
+  --tw-text-opacity: 1;
+  color: rgb(2 137 122 / var(--tw-text-opacity));
+}
+
 .text-primary {
   --tw-text-opacity: 1;
   color: rgb(34 52 61 / var(--tw-text-opacity));
@@ -666,6 +742,10 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.underline {
+  text-decoration-line: underline;
 }
 
 .shadow {
@@ -701,5 +781,21 @@ video {
 
   .lg\:hidden {
     display: none;
+  }
+
+  .lg\:bg-auto {
+    background-size: auto;
+  }
+
+  .lg\:bg-\[calc\(50\%\+250px\)_28px\] {
+    background-position: calc(50% + 250px) 28px;
+  }
+
+  .lg\:pt-\[148px\] {
+    padding-top: 148px;
+  }
+
+  .lg\:text-start {
+    text-align: start;
   }
 }
