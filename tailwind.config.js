@@ -3,6 +3,12 @@ module.exports = {
   darkMode: "class",
   content: ["./*.{html,js}", "./pages/*.html"],
   theme: {
+    backgroundSize: {
+      auto: "auto",
+      cover: "cover",
+      contain: "contain",
+      mb: "338px",
+    },
     extend: {
       colors: {
         transparent: "transparent",
