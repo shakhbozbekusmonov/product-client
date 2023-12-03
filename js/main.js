@@ -1,7 +1,7 @@
 var elModeBtn = document.querySelector(".mode-btn");
 var elResourcesModeIcon = document.querySelector(".resources-mode-icon")
 
-elMenuBtn.addEventListener("click", function () {
+elModeBtn.addEventListener("click", function () {
   if (
     localStorage.theme === "dark" ||
     (!("theme" in localStorage) &&
