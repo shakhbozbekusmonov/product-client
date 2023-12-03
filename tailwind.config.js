@@ -1,8 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: "class",
-  content: [],
+  content: ["./*{html|js}", "./pages/*{html,js}"],
   theme: {
+    screens: {
+      'resources-responsive': '1105px',
+    },
     extend: {
       colors: {
         transparent: "transparent",
