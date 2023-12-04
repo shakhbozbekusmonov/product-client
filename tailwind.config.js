@@ -7,6 +7,7 @@ module.exports = {
       auto: "auto",
       cover: "cover",
       contain: "contain",
+      mb: "338px",  
       mb: "338px",
     },
     extend: {
@@ -20,6 +21,7 @@ module.exports = {
         primary: "#22343D",
         orange: "#F03E3D",
       },
+      
     },
     fontFamily: {
       sans: ["Poppins", "sans-serif"],
