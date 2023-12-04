@@ -21,7 +21,9 @@ module.exports = {
         primary: "#22343D",
         orange: "#F03E3D",
       },
-      
+      boxShadow: {
+        '3xl': '0px 2px 8px 0px rgba(0, 0, 0, 0.25)',
+      },
     },
     fontFamily: {
       sans: ["Poppins", "sans-serif"],
