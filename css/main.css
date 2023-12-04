@@ -1286,34 +1286,6 @@ video {
   color: rgb(34 52 61 / var(--tw-text-opacity));
 }
 
-.active\:scale-50:active {
-  --tw-scale-x: .5;
-  --tw-scale-y: .5;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.active\:font-semibold:active {
-  font-weight: 600;
-}
-
-.active\:font-extrabold:active {
-  font-weight: 800;
-}
-
-.active\:font-bold:active {
-  font-weight: 700;
-}
-
-.active\:antialiased:active {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.active\:subpixel-antialiased:active {
-  -webkit-font-smoothing: auto;
-  -moz-osx-font-smoothing: auto;
-}
-
 :is(.dark .dark\:border) {
   border-width: 1px;
 }
