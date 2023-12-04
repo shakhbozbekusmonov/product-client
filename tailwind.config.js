@@ -1,7 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: "class",
   content: ["./*.{html,js}", "./pages/*.html"],
   theme: {
+    backgroundSize: {
+      auto: "auto",
+      cover: "cover",
+      contain: "contain",
+      mb: "338px",  
+      mb: "338px",
+    },
     extend: {
       colors: {
         transparent: "transparent",
@@ -13,6 +21,7 @@ module.exports = {
         primary: "#22343D",
         orange: "#F03E3D",
       },
+      
     },
     fontFamily: {
       sans: ["Poppins", "sans-serif"],

@@ -10,9 +10,178 @@
   <link rel="icon" href="./assets/icons/favicon.svg">
   <link rel="stylesheet" href="./css/main.css">
 </head>
-<body>
+<body class="transition-colors dark:bg-[#1F2E35]">
+ 
+  <!-- HEADER START -->
+  <header class="py-5 shadow transition-colors dark:bg-[#1F2E35]">
+    <div class="w-full max-w-[1130px] mx-auto px-4">
+      <div class="flex items-center justify-between">
+        <a class="flex items-center text-primary text-3xl font-extrabold dark:text-white" href="./index.html">
+          <img class="me-4" src="./assets/images/logo.svg" width="40" height="36" alt="Product logo img">
+          Product
+        </a>
+        
+        <div class="hidden lg:flex items-center">
+          <nav class="me-6">
+            <ul class="flex gap-6">
+              <li><a class="text-primary font-normal text-base dark:text-white" href="#">Product</a></li>
+              <li><a class="text-primary font-normal text-base dark:text-white" href="#">Customers</a></li>
+              <li><a class="text-primary font-normal text-base dark:text-white" href="#">Pricing</a></li>
+              <li><a class="text-primary font-normal text-base dark:text-white" href="./pages/resource.html">Resource</a></li>
+              <li><a class="text-primary font-semibold text-base py-[10px] px-[22px] border border-[#173A56] rounded dark:text-white" href="#">Sign In</a></li>
+              <li><a class="text-white bg-element font-semibold text-base py-[10px] px-[22px] border border-element rounded" href="#">Sign Up</a></li>
+            </ul>
+          </nav>
+          
+          <button class="mode-btn p-1 bg-[#F3F3F3] rounded-full">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 22C17.514 22 22 17.514 22 12C22 6.486 17.514 2 12 2C6.486 2 2 6.486 2 12C2 17.514 6.486 22 12 22ZM12 4C16.411 4 20 7.589 20 12C20 16.411 16.411 20 12 20C7.589 20 4 16.411 4 12C4 7.589 7.589 4 12 4Z" fill="#02897A"/>
+              <path d="M19 12C19 8.134 15.865 5 12 5V19C15.865 19 19 15.866 19 12Z" fill="#02897A"/>
+            </svg>
+          </button>
+        </div>
+        
+        <button class="lg:hidden text-[#173A56] dark:text-white">
+          <svg width="28" height="31" viewBox="0 0 28 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M3.5 15.5H24.5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M3.5 7.75H24.5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M3.5 23.25H24.5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+  <!-- HEADER END -->
   
   <!-- MAIN START -->
+  
+  <main>
+    <!-- HERO START -->
+    <section class="pt-[350px] lg:pt-[148px] pb-[115px] bg-[url('../assets/images/hero-bg.png')] bg-no-repeat bg-mb lg:bg-auto bg-[center_29px] lg:bg-[calc(50%+250px)_28px]">
+      <div class="w-full max-w-[1130px] mx-auto px-4">
+        <div class="w-full max-w-[458px] text-center lg:text-start">
+          <h1 class="text-primary pb-[18px] text-[40px] font-bold dark:text-white">
+            Work  at the speed
+            of thought
+          </h1>
+          
+          <p class="text-primary text-lg font-normal pb-[45px] dark:text-white">
+            Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.
+          </p>
+          
+          <div class="flex gap-[30px]">
+            <button class="py-[15px] px-[41px] bg-element text-white rounded text-base font-bold">Get started</button>
+            
+            <a class="text-element flex items-center gap-2 text-base font-semibold" href="#">
+              <svg width="17" height="19" viewBox="0 0 17 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M15.8516 8.53032C16.591 8.96531 16.591 10.0347 15.8516 10.4697L2.1954 18.5027C1.44543 18.9439 0.5 18.4031 0.5 17.533V1.46697C0.5 0.596876 1.44543 0.0561381 2.1954 0.497293L15.8516 8.53032Z" fill="#02897A"/>
+              </svg>
+
+              <span class="underline">
+                Watch the Video
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- HERO END -->
+    
+     
+    <!-- LIST START -->
+    <section class="lg:pt-[172px]">
+      <div class="w-full mx-auto max-w-[1130px] px-[15px]">
+        <div>
+          <ul>
+
+            <li class="bg-[url('/list-img/images/list.jpg')] bg-no-repeat bg-mb lg:bg-auto bg-[center_96px] lg:bg-[calc(50%+281px)] pt-[452px]  lg:pt-[44px] lg:pb-[44px]">
+
+                <div class="">
+                  <p class=" text-[#22343D] text-[16px] pb-2 font-semibold leading-normal  dark:text-white">Effortless Validation for</p>
+                  
+                  <h2 class="text-[#22343D] text-[32px] font-bold leading-normal pb-[23px]  dark:text-white">Management</h2>
+                  
+                  <p class="text-[#22343D] text-[16px] font-normal leading-[26px] w-full max-w-[486px] pb-[30px] dark:text-white">The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person. </p>
+                  
+                  <p class="text-[#22343D] dark:text-white text-[16px] font-semibold leading-[26px] pb-[12px]">Accessory makers</p>
+                  
+                  <p class="text-[#22343D] dark:text-white text-[16px] font-normal leading-[26px] w-full max-w-[486px] pb-[25px]">While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun</p>
+                  
+                  <p class="text-[#22343D] dark:text-white text-[16px] font-semibold leading-[26px] pb-[12px]">Alterationists</p>
+                  
+                  <p class="text-[#22343D] dark:text-white text-[16px] font-normal leading-[26px] w-full max-w-[486px]">If you are looking for a new way to promote your business that won’t cost you more money, </p>
+                </div>
+                
+              
+            </li>
+            
+            <li class="lg:my-[154px] pt-[470px] lg:pt-[36px] bg-[url('/list-img/images/notebook.jpg')] lg:bg-[calc(50%+-278px)] bg-no-repeat bg-mb lg:bg-auto bg-[center_100px] ">
+              
+              <div>
+                
+                <!-- <div class="">
+                  <img src="./list-img/images/notebook.jpg" alt="Notebook img">
+                </div> -->
+                
+                <div class=" lg:ml-[637px]">
+                  
+                  <p class="text-[#22343D] dark:text-white text-[16px] font-semibold leading-normal pb-2">Easier decision making for</p>
+                  
+                  <h2 class="text-[#22343D] dark:text-white text-[32px] font-bold leading-normal pb-[23px]">Customer Support</h2>
+                  
+                  <p class="text-[#22343D] dark:text-white text-[16px] font-normal leading-[26px] w-full max-w-[486px] pb-[30px]">The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person. </p>
+                  
+                  <div class="flex items-center pb-[30px] gap-[30px]">
+                    <img src="./list-img/icons/check-icon1.svg" alt="">
+                    <p class="text-[#22343D] dark:text-white text-[16px] font-normal leading-[26px] w-full max-w-[365px]">Never worry about overpaying for your energy again. </p>
+                  </div>
+
+                  <div class="flex items-center pb-[30px] gap-[30px]">
+                    <img src="./list-img/icons/check-icon2.svg" alt="">
+                    <p class="text-[#22343D] dark:text-white text-[16px] font-normal leading-[26px] w-full max-w-[365px]">We will only switch you to energy companies that we trust and will treat you right </p>
+                  </div>
+
+                  <div class="flex items-center pb-[37px] gap-[30px]">
+                    <img src="./list-img/icons/check-icon3.svg" alt="">
+                    <p class="text-[#22343D] dark:text-white text-[16px] font-normal leading-[26px] w-full max-w-[365px]">We track the markets daily and know where the savings are. </p>
+                  </div>
+
+                </div>
+                
+                
+              </div>
+              
+            </li>
+
+            <li class="bg-[url('/list-img/images/images.jpg')] lg:py-[18px] bg-no-repeat lg:bg-[calc(50%+280px)] pt-[439px] bg-mb lg:bg-auto bg-[center_98px]">
+
+                <div class="">
+                  <p class="text-[#22343D] dark:text-white text-[16px] font-semibold leading-normal pb-2">Optimisation for</p>
+                  
+                  <h2 class="text-[#22343D] dark:text-white text-[32px] font-bold leading-normal pb-[23px]">Collaborative</h2>
+                  
+                  <p class="text-[#22343D] dark:text-white text-[16px] font-normal leading-[26px] w-full max-w-[486px] pb-[30px]">Few would argue that, despite the advancements of feminism over the past three decades, women still face a double standard when it comes to their behavior.  </p>
+                  
+                  <p class="text-[#22343D] dark:text-white text-[16px] font-semibold leading-[26px] pb-[12px]">Accessory makers</p>
+                  
+                  <p class="text-[#22343D] dark:text-white text-[16px] font-normal leading-[26px] w-full max-w-[486px] pb-[25px]">While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun</p>
+                  
+                  <p class="text-[#22343D] dark:text-white text-[16px] font-semibold leading-[26px] pb-[12px]">Alterationists</p>
+                  
+                  <p class="text-[#22343D] dark:text-white text-[16px] font-normal leading-[26px] w-full max-w-[486px]">If you are looking for a new way to promote your business that won’t cost you more money, </p>
+                </div>
+                
+                
+
+            </li>
+
+
+
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- LIST END -->
   
   <!-- PROCESS START -->
   <section class="bg-[#EDEDED] pb-[150px] pt-[52px] dark:bg-[#1F2E35] max-[840px]:pb-[70px]">
@@ -49,7 +218,11 @@
     </section>
     <!-- PROCESS END -->
     
-    <!-- MAIN END -->
+    </main>
     
+    <!-- MAIN END -->
+  
+     <script src="./js/main.js"></script>
   </body>
   </html>
+
