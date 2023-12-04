@@ -1,12 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: "class",
-<<<<<<< HEAD
-  content: ["./*{html|js}", "./pages/*{html,js}"],
-  theme: {
-    screens: {
-      'resources-responsive': '1105px',
-=======
   content: ["./*.{html,js}", "./pages/*.html"],
   theme: {
     backgroundSize: {
@@ -14,7 +8,6 @@ module.exports = {
       cover: "cover",
       contain: "contain",
       mb: "338px",
->>>>>>> ca5576bde0b6838eabed85653ce7a22d288df627
     },
     extend: {
       colors: {
