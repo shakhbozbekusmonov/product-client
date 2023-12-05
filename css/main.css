@@ -600,6 +600,10 @@ video {
   margin-bottom: 150px;
 }
 
+.mb-\[17px\] {
+  margin-bottom: 17px;
+}
+
 .mb-\[20px\] {
   margin-bottom: 20px;
 }
@@ -646,6 +650,10 @@ video {
 
 .mr-4 {
   margin-right: 1rem;
+}
+
+.mr-\[14px\] {
+  margin-right: 14px;
 }
 
 .ms-\[30px\] {
@@ -700,12 +708,8 @@ video {
   margin-top: 69px;
 }
 
-.mb-\[17px\] {
-  margin-bottom: 17px;
-}
-
-.mr-\[14px\] {
-  margin-right: 14px;
+.mb-10 {
+  margin-bottom: 2.5rem;
 }
 
 .block {
@@ -772,6 +776,10 @@ video {
   height: 670px;
 }
 
+.h-\[331px\] {
+  height: 331px;
+}
+
 .w-5 {
   width: 1.25rem;
 }
@@ -828,6 +836,10 @@ video {
   width: 100%;
 }
 
+.w-\[351px\] {
+  width: 351px;
+}
+
 .max-w-\[1130px\] {
   max-width: 1130px;
 }
@@ -842,6 +854,10 @@ video {
 
 .max-w-\[323px\] {
   max-width: 323px;
+}
+
+.max-w-\[327px\] {
+  max-width: 327px;
 }
 
 .max-w-\[348px\] {
@@ -860,6 +876,10 @@ video {
   max-width: 486px;
 }
 
+.max-w-\[537px\] {
+  max-width: 537px;
+}
+
 .max-w-\[542px\] {
   max-width: 542px;
 }
@@ -876,12 +896,12 @@ video {
   max-width: 871px;
 }
 
-.max-w-\[327px\] {
-  max-width: 327px;
+.max-w-\[510px\] {
+  max-width: 510px;
 }
 
-.max-w-\[537px\] {
-  max-width: 537px;
+.max-w-\[968px\] {
+  max-width: 968px;
 }
 
 .grid-cols-3 {
@@ -990,6 +1010,10 @@ video {
 
 .rounded-lg {
   border-radius: 0.5rem;
+}
+
+.rounded-\[32px\] {
+  border-radius: 32px;
 }
 
 .border {
@@ -1145,6 +1169,11 @@ video {
   padding-right: 22px;
 }
 
+.px-\[26px\] {
+  padding-left: 26px;
+  padding-right: 26px;
+}
+
 .px-\[30px\] {
   padding-left: 30px;
   padding-right: 30px;
@@ -1185,17 +1214,16 @@ video {
   padding-bottom: 15px;
 }
 
-.px-\[26px\] {
-  padding-left: 26px;
-  padding-right: 26px;
-}
-
 .pb-10 {
   padding-bottom: 2.5rem;
 }
 
 .pb-2 {
   padding-bottom: 0.5rem;
+}
+
+.pb-6 {
+  padding-bottom: 1.5rem;
 }
 
 .pb-8 {
@@ -1270,6 +1298,10 @@ video {
   padding-top: 22px;
 }
 
+.pt-\[28px\] {
+  padding-top: 28px;
+}
+
 .pt-\[350px\] {
   padding-top: 350px;
 }
@@ -1294,12 +1326,40 @@ video {
   padding-top: 60px;
 }
 
-.pb-6 {
-  padding-bottom: 1.5rem;
+.pb-0 {
+  padding-bottom: 0px;
 }
 
-.pt-\[28px\] {
-  padding-top: 28px;
+.pb-\[7px\] {
+  padding-bottom: 7px;
+}
+
+.pe-9 {
+  padding-inline-end: 2.25rem;
+}
+
+.pe-\[35px\] {
+  padding-inline-end: 35px;
+}
+
+.ps-\[33px\] {
+  padding-inline-start: 33px;
+}
+
+.ps-\[51px\] {
+  padding-inline-start: 51px;
+}
+
+.pt-12 {
+  padding-top: 3rem;
+}
+
+.pt-\[13px\] {
+  padding-top: 13px;
+}
+
+.pt-\[14px\] {
+  padding-top: 14px;
 }
 
 .text-center {
@@ -1319,6 +1379,10 @@ video {
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
+}
+
+.text-\[14px\] {
+  font-size: 14px;
 }
 
 .text-\[15px\] {
@@ -1370,10 +1434,6 @@ video {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-
-.text-\[14px\] {
-  font-size: 14px;
 }
 
 .font-\[500\] {
@@ -1436,6 +1496,10 @@ video {
   line-height: 22px;
 }
 
+.leading-\[24px\] {
+  line-height: 24px;
+}
+
 .leading-\[26px\] {
   line-height: 26px;
 }
@@ -1462,10 +1526,6 @@ video {
 
 .leading-normal {
   line-height: 1.5;
-}
-
-.leading-\[24px\] {
-  line-height: 24px;
 }
 
 .tracking-\[-0\.6px\] {
@@ -1510,6 +1570,11 @@ video {
   color: rgb(55 71 84 / var(--tw-text-opacity));
 }
 
+.text-\[\#737373\] {
+  --tw-text-opacity: 1;
+  color: rgb(115 115 115 / var(--tw-text-opacity));
+}
+
 .text-\[\#AFAFAF\] {
   --tw-text-opacity: 1;
   color: rgb(175 175 175 / var(--tw-text-opacity));
@@ -1528,11 +1593,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-\[\#737373\] {
-  --tw-text-opacity: 1;
-  color: rgb(115 115 115 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -1765,6 +1825,25 @@ video {
   }
 }
 
+@media (max-width: 825px) {
+  .max-\[825px\]\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .max-\[825px\]\:flex-col {
+    flex-direction: column;
+  }
+
+  .max-\[825px\]\:items-center {
+    align-items: center;
+  }
+
+  .max-\[825px\]\:text-center {
+    text-align: center;
+  }
+}
+
 @media (max-width: 768px) {
   .max-\[768px\]\:grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -1800,6 +1879,12 @@ video {
 
   .max-\[700px\]\:items-center {
     align-items: center;
+  }
+}
+
+@media (max-width: 468px) {
+  .max-\[468px\]\:mb-\[70px\] {
+    margin-bottom: 70px;
   }
 }
 
